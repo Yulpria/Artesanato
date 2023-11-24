@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valorização do Artesanato</title>
+  <style>
+    html {
+    scroll-behavior: smooth;
+  }
+
+    /* Estilos CSS personalizados podem ser adicionados aqui */
+    :root {
+      --cor-fundo-claro: #f2f2f2;
+      --cor-texto-claro: #333;
+      --cor-fundo-escuro: #333;
+      --cor-texto-escuro: #f2f2f2;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--cor-fundo-claro); /* Usando a variável de cor de fundo do tema claro */
+      color: var(--cor-texto-claro); /* Usando a variável de cor de texto do tema claro */
+      transition: background-color 0.3s, color 0.3s; /* Transição suave ao alternar temas */
+    }
+
+    header {
+      background-color: var(--cor-fundo-claro);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    /* Atualização nas regras para os links de navegação */
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--cor-texto-claro);
+    transition: color 0.3s; /* Transição suave para a cor do texto */
+  }
+
+  /* Destaque ao passar o cursor sobre os links de navegação */
+  nav ul li a:hover {
+    color: #007bff; /* Cor do destaque ao passar o cursor */
+  }
+
+  /* Adiciona uma transição suave ao clicar nos links de navegação */
+  nav ul li a:active {
+    transition: none; /* Remove a transição padrão */
+  }
+
+    /* Linha de destaque entre seções */
+    .separador {
+      border-top: 2px solid #007bff; /* Cor da linha de destaque */
+      margin: 20px 0; /* Espaçamento vertical entre as seções */
+  }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: var(--cor-fundo-claro);
+      color: var(--cor-texto-claro);
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Personalização das bordas das imagens */
+    div img {
+      border: 2px solid #ccc;
+      border-radius: 8px; /* Adicionando bordas arredondadas */
+      margin: 5px; /* Adicionando espaço entre as imagens */
+    }
+
+    /* Estilos para o botão de alternar tema */
+    button#btnToggleTema {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 16px;
+      border-radius: 4px;
+      border: none;
+      color: #fff;
+      background-color: #333;cursor: pointer;
+      transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave para transformações */
+    }
+
+   /* Adiciona uma rotação ao passar o cursor sobre o botão */
+      button#btnToggleTema:hover {
+      transform: rotate(360deg);
+    }
+
+   /* Adiciona uma escala ao clicar no botão */
+      button#btnToggleTema:active {
+      transform: scale(0.9);
+    }
+
+    button#btnToggleTema svg {
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Valorização do Artesanato</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#beneficios">Benefícios</a></li>
+        <li><a href="#percurso">Percurso</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#referencias">Referências</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>O artesanato é uma forma de expressão cultural que envolve a criação de objetos únicos e personalizados. Este site tem como objetivo promover a valorização do artesanato e destacar a importância desse tipo de produção artística.</p>
+  </section>
+    <div class="separador"></div>
+
+  <section id="beneficios">
+    <h2>Benefícios</h2>
+    <ul>
+      <li>Preservação da cultura e tradições locais</li>
+      <li>Criação de oportunidades econômicas para artesãos</li>
+      <li>Estímulo à criatividade e expressão individual</li>
+      <li>Promoção do consumo consciente e sustentável</li>
+      <!-- Adicione mais itens conforme necessário -->
+    </ul>
+  </section>
+    <div class="separador"></div>
+
+  <section id="percurso" class="percurso-section">
+  <h2>Percurso das Artes do Artesanato</h2>
+  <p>Nesta seção, exploraremos o percurso de cada uma das artes do artesanato apresentadas, destacando suas características únicas e a jornada criativa por trás de cada obra.</p>
+
+  <div class="percurso-item">
+    <h3>Pintura em Tela</h3>
+    <p>A arte da pintura em tela é uma forma expressiva de criar imagens utilizando tintas sobre uma superfície de tela. Os artistas podem explorar uma variedade de estilos e técnicas, transmitindo suas emoções e narrativas por meio das pinceladas.</p>
+    <img src="https://s2-redeglobo.glbimg.com/KK3gAmu2-WRvg_mbdcfoQqC3kv4=/0x0:1920x1200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2023/2/f/gyROFzRG2aUk7vM4LwbA/starry-sky-g08bc86a52-1920.jpg" alt="Caminho da Pintura em Tela" width="300">
+  </div>
+
+  <div class="percurso-item">
+    <h3>Escultura em Madeira</h3>
+    <p>A escultura em madeira envolve a criação de formas tridimensionais a partir de peças de madeira. Os escultores esculpem e moldam a madeira para dar vida a suas visões, explorando temas que vão desde a natureza até figuras abstratas.</p>
+    <img src="https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_1200,pg_1,t_base_params,w_1200/v1627282511/blog-post-covers/000/008/418/8418-original.jpg?1627282511" alt="Caminho da Escultura em Madeira" width="300">
+  </div>
+
+  <div class="percurso-item">
+    <h3>Bordado</h3>
+    <p>O bordado é uma técnica de costura decorativa que permite aos artistas criar padrões e desenhos ornamentados em tecidos. Cada ponto é uma expressão cuidadosa de criatividade, e os bordados muitas vezes contam histórias ou representam elementos simbólicos.</p>
+    <img src="https://images.immediate.co.uk/production/volatile/sites/32/2021/04/sunflower-embroidery-main-07a3407.jpg?quality=90&resize=980,654" alt="Caminho do Bordado" width="300">
+  </div>
+
+  <div class="percurso-item">
+    <h3>Cerâmica</h3>
+    <p>A cerâmica é a arte de moldar e esmaltar argila para criar peças únicas. Desde vasos utilitários até esculturas decorativas, os ceramistas exploram a versatilidade da argila e as possibilidades de criar formas duráveis e expressivas.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Wave_bowl_MET_LC-2001_549-001_%28cropped%29.jpg" alt="Caminho da Cerâmica" width="300">
+  </div>
+</section>
+    <div class="separador"></div>
+
+<section id="referencias" class="referencias-section">
+  <h2>Referências</h2>
+  <p>As informações apresentadas nesta seção foram embasadas em diversas fontes, incluindo:</p>
+  
+  <ul>
+    <li><a href="https://pt.wikipedia.org/wiki/Pintura" target="_blank" rel="noopener noreferrer">Wikipédia - Pintura em Tela</a></li>
+    <li><a href="https://pt.wikipedia.org/wiki/Entalhe" target="_blank" rel="noopener noreferrer">Wikipédia - Escultura em Madeira</a></li>
+    <li><a href="https://pt.wikipedia.org/wiki/Bordado" target="_blank" rel="noopener noreferrer">Wikipédia - Bordado</a></li>
+    <li><a href="https://pt.wikipedia.org/wiki/Cer%C3%A2mica" target="_blank" rel="noopener noreferrer">Wikipédia - Cerâmica</a></li>
+    <li><a href="https://pt.wikipedia.org/wiki/Artesanato" target="_blank" rel="noopener noreferrer">Wikipédia - Artesanato</a></li>
+    <!-- Adicione mais referências conforme necessário -->
+  </ul>
+</section>
+    <div class="separador"></div>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco caso deseja ter mais informações sobre nosso projeto ou seu trabalho divulgado pelo email: alison.svbarros@aluno.educacao.pe.gov.br</p>
+  </section>
+    <div class="separador"></div>
+
+  <footer>
+    <p>&copy; 2023 Valorização do Artesanato. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Botão para alternar entre o tema claro e o tema escuro -->
+  <button id="btnToggleTema" onclick="toggleTema()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    Alterar Tema
+  </button>
+
+  <script>
+    // Função para alternar entre o tema claro e o tema escuro
+    function toggleTema() {
+      const corFundoClaro = "#f2f2f2";
+      const corTextoClaro = "#333";
+      const corFundoEscuro = "#333";
+      const corTextoEscuro = "#f2f2f2";
+
+      const body = document.body;
+      const estiloBody = window.getComputedStyle(body);
+      const corFundoAtual = estiloBody.getPropertyValue('--cor-fundo-claro').trim();
+
+      if (corFundoAtual === corFundoClaro) {
+        body.style.setProperty('--cor-fundo-claro', corFundoEscuro);
+        body.style.setProperty('--cor-texto-claro', corTextoEscuro);
+      } else {
+        body.style.setProperty('--cor-fundo-claro', corFundoClaro);
+        body.style.setProperty('--cor-texto-claro', corTextoClaro);
+      }
+    }
+  </script>
+</body>
+</html>
